@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+img{
+            width:1390px;
+            height:850px;
+            opacity: 0.5;
+            flex-basis: auto;
+            background-size: cover;
+        }
+body{
+	margin:0px;
+	padding: 0px;
+}
+a{
+	text-decoration:none;
+    }
+.social a{
+	padding: 40px;
+	color:#7b7c7c;
+	font-size:1.9rem;
+}
+#contact{
+	position: absolute;
+	left: 50%;
+    top: 50%;
+	transform: translate(-50%,-50%);
+	display: flex;
+	align-items: center;
+}
+.social{
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: center;
+	align-items: center;
+	background-color:#FFF0EC ;
+    box-shadow: 2px 2px 30px rgb(0,0,0,0.9);
+}
+.social a:hover{
+	color:#000000;
+	transition: all ease 0.3s;
+}
+.contact-box{
+	background-color:#F4D6BC;
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+    padding: 60px 90px;
+	box-shadow: 2px 0px 30px rgba(0,0,0,0.2);
+}
+.c-heading h1{
+	font-family: Roboto;
+	color: #7b7c7c;
+	font-size: 3.2rem;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+    }
+.c-heading p{
+	font-family: Roboto;
+	color:#7b7c7c;
+	font-size: 0.9rem;
+	font-weight: lighter;
+	margin: 0px;
+	padding: 0px;
+    text-align: center;
+}
+.c-inputs{
+	margin: 18px 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.c-inputs input{
+	width:280px;
+    height: 45px;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid rgba(251,251,251,0.1);
+	outline: none;
+	margin: 10px 0px;
+	padding: 10px;
+	box-sizing: border-box;
+	color: #f4f4f4;
+	display: flex;
+}
+.c-inputs textarea{
+	width:250px !important;
+	height: 280px !important;
+	outline: none;
+	background-color: transparent;
+	border:1px solid rgba(84,82,82,1);
+	color: #f4f4f4;
+	padding: 10px;
+	font-size: 1.2rem;
+	box-sizing: border-box;
+    }
+.c-inputs button{
+	width:200px;
+	height: 40px;
+	background-color: #FFFFFF;
+	border: none;
+	outline: none;
+	margin-top: 20px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+	letter-spacing: 1px;
+}
+.c-inputs input:focus{
+	border-bottom: 1px solid rgba(252,252,252,1.00);
+	transition: all ease 0.5s;
+}
+.c-inputs textarea:focus{
+	border: none;
+	border-bottom: 1px solid rgba(255,255,255,1.00);
+	transition: all ease 0.5s;
+	background-color: rgba(0,0,0,0.1);
+}
+.c-inputs button:active{
+	transform: scale(1.02);
+}
