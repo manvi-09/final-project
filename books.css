@@ -9,15 +9,15 @@ body{
     
 }
 .main{
-    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)), url(harry\ bg.png);
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)), url(library.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     
     
 }
 .cards{
-    width:10%;
-    height:10%;
+    width:15%;
+    height:15%;
     display: inline-block;
     background-color: ghostwhite ;
     border-radius: 5px;
@@ -45,4 +45,16 @@ body{
     transition:cubic-bezier(0.19, 1, 0.22, 1);
 
 
+}
+.link{
+    color:black;
+    
+
+}
+.link:hover{
+    background-color: wheat;
+    color: black;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
 }

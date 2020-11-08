@@ -15,15 +15,18 @@ body{
     
     
 }
+
+
 .cards{
-    width:10%;
+    width:15%;
     height:10%;
     display: inline-block;
-    background-color: ghostwhite ;
+    background-color: rgba(214, 204, 196, 0.322) ;
     border-radius: 5px;
-    margin:40px;
+    margin:50px;
     box-shadow: 2px 2px 10px black;
     max-height: 500px;
+    padding:1px;
     
 
 
@@ -41,7 +44,8 @@ body{
 .title{
     text-align: center;
     padding:5px;
-    color: teal;
+    color:black;
+    font-family: cursive;
     
 
 
@@ -51,9 +55,10 @@ body{
     padding:4px;
     max-height: 30px;
     overflow-y: scroll;
-    text-decoration-color: black;
-    
-    font-family: serif;
+    font-size: small;
+    color: black;
+    font-family: fantasy;
+
 
 }
 button{
